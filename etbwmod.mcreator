@@ -1,0 +1,415 @@
+{
+  "mod_elements": [
+    {
+      "name": "LidanosForestBiome",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lidanos_forest"
+    },
+    {
+      "name": "LightCrystal",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal"
+    },
+    {
+      "name": "AtumLightCrystalOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atum_light_crystal_ore"
+    },
+    {
+      "name": "ChaosLightCrystalOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_light_crystal_ore"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_pickaxe"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsAxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_axe"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_sword"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsShovel",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_shovel"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsHoe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_hoe"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_pickaxe_recipe"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_axe_recipe"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_sword_recipe"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_shovel_recipe"
+    },
+    {
+      "name": "EtBW_LightCrystal_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_hoe_recipe"
+    },
+    {
+      "name": "LightCrystalArmorArmor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LightCrystalArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "LightCrystalArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_armor_armor_body_recipe"
+    },
+    {
+      "name": "LightCrystalArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "LightCrystalArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_armor_armor_boots_recipe"
+    },
+    {
+      "name": "LightCrystalBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_block"
+    },
+    {
+      "name": "EtBWLightCrystalToolsPickaxeDangFangKuaiBeiGongJuPoPi",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_pickaxe_dang_fang_kuai_bei_gong_ju_po_pi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EtBWLightCrystalToolsSwordDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_bw_light_crystal_tools_sword_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightCrystalArmorArmorXiongJiaShiJianMeiYouXiKe",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_armor_armor_xiong_jia_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightCrystalArmorArmorHuTuiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_armor_armor_hu_tui_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Etbw",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "etbw"
+    },
+    {
+      "name": "TestHoliday",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_holiday",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightCrystalHelmetChuFaQi",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_crystal_helmet_chu_fa_qi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HolidayText",
+      "type": "gamerule",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holidayText",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "XpGrowthHuoDongTickTiaoJian",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_growth_huo_dong_tick_tiao_jian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XpGrowth",
+      "type": "potioneffect",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_growth"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "lidanos_forest_music",
+      "files": [
+        "LidanosMusic1",
+        "LidanosMusic2",
+        "LidanosMusic3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.kateroland.frc_axe": "Frc Axe",
+      "biome.etbwtmod.lidanos_forest": "lidanos mysterious forest",
+      "effect.xp_growth": "Xp Growth",
+      "block.etbwmod.light_crystal_block": "Light Crystal Block",
+      "item.kateroland.frc_shovel": "Frc Shovel",
+      "item.etbwmod.et_bw_light_crystal_tools_axe": "光之水晶斧",
+      "itemGroup.tabetbw": "探索光明的世界",
+      "block.kateroland.sk_block": "Block of Sk",
+      "gamerule.holiday_wishes.description": "Entering the map will give you holiday wishes。(In production)",
+      "item.etbwmod.light_crystal_armor_armor_boots": "光之水晶战靴",
+      "item.kateroland.sk_dust": "Sk",
+      "gamerule.holidayText": "节日祝福语",
+      "block.kateroland.sk_ore": "Sk Ore",
+      "item.etbwmod.et_bw_light_crystal_tools_sword": "光之水晶剑",
+      "item.etbwmod.et_bw_light_crystal_tools_hoe": "光之水晶锄头",
+      "item.etbwmod.light_crystal": "光之水晶",
+      "gamerule.holiday_wishes": "Holiday greetings(In production)",
+      "subtitles.katero_lands_music": "",
+      "block.etbwmod.atum_light_crystal_ore": "Atum Light Crystal Ore",
+      "biome.etbwmod.lidanos_forest": "lidanos mysterious forest",
+      "item.kateroland.frc_sword": "Frc Sword",
+      "gamerule.holidayText.description": "进入地图时显示对应节日的祝福文字。",
+      "item.etbwmod.light_crystal_armor_armor_helmet": "光之水晶头盔",
+      "item.etbwmod.light_crystal_armor_armor_chestplate": "光之水晶盔甲",
+      "item.kateroland.frc_hoe": "Frc Hoe",
+      "block.etbwmod.chaos_light_crystal_ore": "Atum Light Crystal Ore",
+      "item.etbwmod.et_bw_light_crystal_tools_shovel": "光之水晶铲",
+      "item.kateroland.frc_pickaxe": "Frc Pickaxe",
+      "item.etbwmod.et_bw_light_crystal_tools_pickaxe": "光之水晶镐",
+      "item.etbwmod.light_crystal_armor_armor_leggings": "光之水晶护腿"
+    },
+    "zh_cn": {
+      "item.kateroland.frc_axe": "Frc Axe",
+      "biome.etbwtmod.lidanos_forest": "利达诺斯秘林",
+      "effect.xp_growth": "Xp Growth",
+      "block.etbwmod.light_crystal_block": "光之水晶块",
+      "item.etbwmod.et_bw_light_crystal_tools_axe": "光之水晶斧头",
+      "item.kateroland.frc_shovel": "Frc Shovel",
+      "itemGroup.tabetbw": "探索光明的世界",
+      "block.kateroland.sk_block": "Block of Sk",
+      "gamerule.holiday_wishes.description": "进入地图时显示对应节日的祝福文字。（本功能尚未实现，仍在研究制作方法，敬请期待！）",
+      "item.etbwmod.light_crystal_armor_armor_boots": "光之水晶战靴",
+      "item.kateroland.sk_dust": "Sk",
+      "gamerule.holidayText": "节日祝福语",
+      "block.kateroland.sk_ore": "Sk Ore",
+      "item.etbwmod.et_bw_light_crystal_tools_sword": "光之水晶神剑",
+      "item.etbwmod.et_bw_light_crystal_tools_hoe": "光之水晶锄头",
+      "item.etbwmod.light_crystal": "光之水晶",
+      "gamerule.holiday_wishes": "节日祝福语（暂未实现）",
+      "block.etbwmod.atum_light_crystal_ore": "沙漠光之水晶矿石 - 阿图姆",
+      "biome.etbwmod.lidanos_forest": "利达诺斯秘林",
+      "item.kateroland.frc_sword": "Frc Sword",
+      "gamerule.holidayText.description": "进入地图时显示对应节日的祝福文字。",
+      "item.etbwmod.light_crystal_armor_armor_helmet": "光之水晶头盔",
+      "item.etbwmod.light_crystal_armor_armor_chestplate": "光之水晶盔甲",
+      "item.kateroland.frc_hoe": "Frc Hoe",
+      "block.etbwmod.chaos_light_crystal_ore": "光之水晶矿石 - 黑暗混沌之地",
+      "item.etbwmod.et_bw_light_crystal_tools_shovel": "光之水晶铲子",
+      "item.kateroland.frc_pickaxe": "Frc Pickaxe",
+      "item.etbwmod.et_bw_light_crystal_tools_pickaxe": "光之水晶镐子",
+      "item.etbwmod.light_crystal_armor_armor_leggings": "光之水晶护腿"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "etbwmod",
+    "modName": "Explore the Bright World",
+    "version": "V1.4.02",
+    "author": "StarMaple, ShaoZi, MCR",
+    "websiteURL": "https://63ee2ef50029a.site123.me",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "etbw_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "mod.starmaple.etbw",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
