@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "节日祝福语",
+    "description": "进入地图时显示对应节日的祝福文字。",
+    "category": "CHAT",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Xp Growth",
+    "icon": "xp_icon.png",
+    "color": {
+      "value": -11279313,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "XpGrowthHuoDongTickTiaoJian"
+    }
+  }
+}

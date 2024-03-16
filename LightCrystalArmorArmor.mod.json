@@ -1,0 +1,71 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "light_crystal_helmet",
+    "enableBody": true,
+    "textureBody": "light_crystal_chest",
+    "enableLeggings": true,
+    "textureLeggings": "light_crystal_legs",
+    "enableBoots": true,
+    "textureBoots": "light_crystal_shoes",
+    "onHelmetTick": {
+      "name": "LightCrystalHelmetChuFaQi"
+    },
+    "onBodyTick": {
+      "name": "LightCrystalArmorArmorXiongJiaShiJianMeiYouXiKe"
+    },
+    "onLeggingsTick": {
+      "name": "LightCrystalArmorArmorHuTuiShiJianMeiYouXiKe"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Etbw"
+    },
+    "armorTextureFile": "lightcrystalarmor",
+    "helmetName": "光之水晶头盔",
+    "bodyName": "光之水晶盔甲",
+    "leggingsName": "光之水晶护腿",
+    "bootsName": "光之水晶战靴",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 62,
+    "damageValueHelmet": 4,
+    "damageValueBody": 12,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 3,
+    "enchantability": 14,
+    "toughness": 0.8,
+    "knockbackResistance": 0.38,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightCrystal"
+      }
+    ]
+  }
+}

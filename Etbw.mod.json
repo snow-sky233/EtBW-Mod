@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "探索光明的世界",
+    "icon": {
+      "value": "CUSTOM:LightCrystal"
+    },
+    "showSearch": true
+  }
+}

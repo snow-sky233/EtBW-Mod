@@ -1,0 +1,175 @@
+{
+  "_fv": 33,
+  "_type": "biome",
+  "definition": {
+    "name": "利达诺斯秘林",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.CLAY"
+    },
+    "airColor": {
+      "value": -4466208,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -5909261,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -7225371,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13795175,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "CUSTOM:lidanos_forest_music"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "END_ROD"
+    },
+    "particlesProbability": 0.273,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.4,
+    "temperature": 0.62,
+    "baseHeight": 0.34,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 4,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 3,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 8,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 3,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 12,
+    "treeStem": {
+      "value": "Blocks.LOG#3"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES#0"
+    },
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "SWAMP",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 12,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 14,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 3,
+        "maxGroup": 5,
+        "weight": 14,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 3,
+        "maxGroup": 5,
+        "weight": 21,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 14,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 3,
+        "maxGroup": 5,
+        "weight": 12,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}
